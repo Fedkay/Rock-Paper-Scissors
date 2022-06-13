@@ -30,7 +30,7 @@ while True:
         else:
             print("Rock smashes scissors! You lose.")
 
-    play_again = input("Play again? (y/n): ")
-    if play_again.lower() != "y":
+    play_again = input("Play again? (Y/N): ")
+    if play_again.lower() != "Y":
         break
     
